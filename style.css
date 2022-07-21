@@ -1,0 +1,60 @@
+body{
+    background-image: url("wallpaper.jpg");
+}
+.container{
+    max-width: 300px;
+    border: 1px solid black;
+    margin: 30vh auto 0 auto;
+    box-shadow: 15px 15px 50px 15px;
+    background-color: white; 
+}
+ 
+#display{
+    text-align: right;
+    border: 1px solid ;
+    height: 70px;
+    line-height: 60px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 25px;
+    background-color: antiquewhite;
+    font-family:"Times New Roman", Times , serif;
+    
+}
+
+.buttons{
+  display:grid;
+  /* border-bottom: 2px solid green; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* border-left: 2px solid green; */
+  /* border-right: 2px solid green; */
+ 
+}
+
+
+.button{
+    border: 1px solid black;
+    line-height: 70px;
+    margin: 4px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: bold;
+
+}
+
+#equalsign{
+    background-color: blue;
+    color: white;
+}
+
+.button:hover{
+    background-color: gray;
+    color: white;
+    transition: 0.5s;
+}
+
+#result{
+    padding: 1px; 
+}

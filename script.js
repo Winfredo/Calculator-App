@@ -15,7 +15,7 @@ buttons.map( button => {
             display.innerText = display.innerText.slice (0, -1);
           }   
           break;
-          
+          // A function for the equal button 
          case '=' :
           try{
             display.innerText = eval(display.innerText);

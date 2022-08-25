@@ -10,11 +10,11 @@ body{
 }
 .container{
     max-width: 300px;
-    margin-bottom: 10px;
     border: 3px solid black;
     margin: 30vh auto 0 auto;
     box-shadow: 15px 15px 50px 15px;
-    background-color: white; 
+    background-color: white;
+    margin-top: 150px; 
 }
  
 #display{

@@ -6,9 +6,11 @@
 
 body{
     background-image: url("wallpaper.jpg");
+    
 }
 .container{
     max-width: 300px;
+    margin-bottom: 10px;
     border: 3px solid black;
     margin: 30vh auto 0 auto;
     box-shadow: 15px 15px 50px 15px;
@@ -51,7 +53,12 @@ body{
 }
 
 #equalsign{
-    background-color: blue;
+    background-color: rgb(121, 121, 180);
+    color: black;
+
+}
+
+#equalsign:hover{
     color: white;
 }
 
